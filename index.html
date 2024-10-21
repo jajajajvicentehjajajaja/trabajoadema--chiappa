@@ -10,25 +10,50 @@
     <title>FORMULA 1</title>
 </head>
 <body>
-    <div class="container ">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            <span class="fs-4">Formula 1</span> 
-            <span class="fs-4 bg-info">ARGENTINA</span>
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+            <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
           </a>
+        </div>
+  
+        <span class="fs-2 text-white "><a class="link-underline-lightlink-offset-2 link-underline link-underline-opacity-0" href="index.html">Formula 1 ARGENTINA</a></span> 
+  
+        <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-outline-primary me-2">Registrarse</button>
+        </div>
+      </header>
+
+      
+      <nav class="navbar navbar-dark bg-primary" aria-label="First navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
     
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Sobre nosotros</a></li>
-          </ul>
-        </header>
-      </div> 
+          <div class="navbar-collapse collapse" id="navbarsExample01" style="">
+            <ul class="navbar-nav me-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Fotos de la ultima carrera</a>
+              </li>            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Colapinto puesto:</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-item">1ra carrera: </li>
+                  <li class="dropdown-item">2da carrera: </li>
+                  <li class="dropdown-item">3ra carrera:</li>
+                </ul>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
 
 
-
-</body>
+</body> 
 </html>
