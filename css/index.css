@@ -29,3 +29,8 @@
 #imagenfooter{
     width: 22%;
 }
+
+.carta:hover{
+    transform: scale(1.07);
+    
+}
