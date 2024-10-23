@@ -1,13 +1,27 @@
-#noticias{
+.noticias{
     text-align: center;
 }
 
 #sas{
     padding: 0;
     margin: 0;
+    background-color: #81c1f1   ;
 }
+
 
 #fotos{
     width: 40px;
     height: 40px;
+}
+
+#fondo{
+    background-color: #3ba1f0;
+    width: 100%;
+}
+.gradiant{
+   
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #81c1f1, #3ba1f0);
+
 }
