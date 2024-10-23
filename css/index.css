@@ -7,8 +7,7 @@
     margin: 0;
 }
 
-#imagen{
-    display: flex;
-    width: 10%;
-    height: 10%;
+#fotos{
+    width: 40px;
+    height: 40px;
 }
